@@ -8,7 +8,6 @@ function ContactMe() {
     <div className="flex flex-col gap-4">
       <ContactCard icon={<MdOutlineMail className='w-full h-full'/>} text={"Send a mail instead"} url={"mailto:josephugochukwu240@gmail.com"}/>
 
-      <ContactCard icon= {<img src="/images/main-image.jpg" className='w-12 mx-auto h-full rounded-md'/>} text={"Schedule a free call with me"} url={"#"}/>
     </div>
   )
 }
