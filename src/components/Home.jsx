@@ -6,12 +6,10 @@ function Home() {
   return (
     <div className="bg-black px-6 md:px-0 pb-6" >
       <div className="w-full bg-[#2A2A2A] rounded-lg shadow-md py-8 px-5 text-white mx-auto md:mx-0" data-aos="zoom-in">
-        <h1 className="font-bold">Blockchain | Web3 Tutor</h1>
-        <h1 className="font-bold">Content, Ideas, Marketing & Solution </h1>
-        <h1 className="font-bold">Tech Social Media Manager </h1>
-        <h1 className="font-bold">
-          Educating AI for Career & Personal Productivity
-        </h1>
+        <h1 className="font-bold">Christain</h1>
+        <h1 className="font-bold">Start-up | Web3 | AI </h1>
+        <h1 className="font-bold">Digital Marketer </h1>
+        
       </div>
 
       <PortfolioSlide />
