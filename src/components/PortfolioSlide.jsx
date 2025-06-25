@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const projectsData = [
   {
@@ -90,8 +91,8 @@ function PortfolioSlide() {
       >
         {projectsData.map((project, index) => (
           <SwiperSlide key={index} className="pt-4 pb-8 md:pb-4">
-            <a
-              href={project.url}
+            <Link
+              to={project.url}
               target="_blank"
               className="flex flex-col space-y-2 justify-center h-auto w-full bg-[#2A2A2A] rounded-lg shadow-md text-white"
             >
@@ -104,7 +105,7 @@ function PortfolioSlide() {
                 <h2 className="font-semibold">{project.title}</h2>
                 <p className="text-xs line-clamp-1">{project.description}</p>
               </div>
-            </a>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
