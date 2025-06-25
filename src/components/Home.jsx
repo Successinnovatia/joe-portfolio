@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioSlide from "./PortfolioSlide";
 import BioCard from "./BioCard";
+import WorksSlide from "./WorksSlide";
 
 function Home() {
   return (
@@ -14,7 +15,8 @@ function Home() {
         <h1 className="font-bold">Digital Marketer </h1>
       </div>
 
-      <PortfolioSlide />
+      {/* <PortfolioSlide /> */}
+      <WorksSlide/>
 
       <BioCard
         title={"The Joe Writes"}

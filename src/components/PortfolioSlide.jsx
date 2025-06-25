@@ -6,31 +6,63 @@ import { Pagination } from "swiper/modules";
 
 const projectsData = [
   {
-    title: "Project 1",
-    description: "Description of Project 1",
-    image: "/images/main-image.jpg",
-    url: "#",
+    title: "Mithril Protocol",
+    description:
+      "Pioneering DeFi Innovation on @aothecomputer Creators of $NAB. Up only token.",
+    image: "/images/mithril-protocol.jpg",
+    url: "https://mithril-mint-token.ar.io/",
   },
 
   {
-    title: "Project 2",
-    description: "Description of Project 2",
-    image: "/images/main-image.jpg",
-    url: "#",
+    title: "Clusttr",
+    description:
+      "Bringing utility and liquidity to real estate. Built on Solana! @solana hyperdrive hackathon winner",
+    image: "/images/clusttr-img.jpg",
+    url: "https://linktr.ee/clusttr",
   },
 
   {
-    title: "Project 3",
-    description: "Description of Project 3",
-    image: "/images/main-image.jpg",
-    url: "#",
+    title: "Tribe Techie",
+    description:
+      "Driving conversations that shape the tech and startup landscape across the MENA region.",
+    image: "/images/tribe-techie-img.jpg",
+    url: "http://tribetechie.com",
   },
 
   {
-    title: "Project 4",
-    description: "Description of Project 4 that can be crazy as hell oh my god what was i thinking",
-    image: "/images/main-image.jpg",
-    url: "#",
+    title: "Builder's Tribe",
+    description:
+      "Connecting talent, founders, and investors to build a thriving tech ecosystem in the MENA region.",
+    image: "/images/builders-tribe-img.jpg",
+    url: "https://www.builderstribe.xyz/",
+  },
+  {
+    title: "Sacred Protocol",
+    description:
+      "A Decentralised Social Tipping Protocol Rewarding Communities everywhere! ",
+    image: "/images/sacred-img.jpg",
+    url: "http://linktr.ee/sacredprotocol",
+  },
+  {
+    title: "Twenties Circle",
+    description:
+      "A Growth-driven community that helps the twenties to overcome their most difficult years",
+    image: "/images/twenties-circle-img.jpg",
+    url: "http://twentiescircle.com",
+  },
+  {
+    title: "Savviwear",
+    description:
+      "An Eco-friendly swimwear and underwear for your period cycle. Making ladies period comfortable and worry-free.",
+    image: "/images/savvi-wear-img.jpg",
+    url: "https://savviwear.co/",
+  },
+  {
+    title: "Terraverde Exports",
+    description:
+      "A Nigerian-based agro-commodity export company delivering quality and reliability agricultural produce from farm to the global market.",
+    image: "/images/terra-verde-img.jpg",
+    url: "https://www.linkedin.com/company/terraverde-exports/",
   },
 ];
 
@@ -55,7 +87,6 @@ function PortfolioSlide() {
           },
         }}
         className="h-auto"
-       
       >
         {projectsData.map((project, index) => (
           <SwiperSlide key={index} className="pt-4 pb-8 md:pb-4">
@@ -76,9 +107,7 @@ function PortfolioSlide() {
             </a>
           </SwiperSlide>
         ))}
-        
       </Swiper>
-
     </div>
   );
 }
