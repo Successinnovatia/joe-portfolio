@@ -17,7 +17,7 @@ const WorksData = [
     title: "Speaking and Apperances",
 
     image: "https://img.freepik.com/free-photo/close-up-microphone_107420-63821.jpg?uid=R193310056&ga=GA1.1.1570111543.1742967309&semt=ais_hybrid&w=740",
-    url: "#",
+    url: "/speaking",
   },
 
   {
@@ -61,7 +61,6 @@ function WorksSlide() {
           <SwiperSlide key={index} className="pt-4 pb-8 md:pb-4">
             <Link
               to={work.url}
-              target="_blank"
               className="flex flex-col space-y-2 justify-center h-64 w-full bg-[#2A2A2A] rounded-lg shadow-md text-white"
             >
               <img

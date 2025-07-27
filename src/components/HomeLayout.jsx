@@ -83,11 +83,11 @@ const HomeLayout = () => {
         </header>
 
         <main className="absolute md:static top-0 w-full">
-          <div className="relative w-full md:w-5/6 lg:w-3/5 md:mx-auto md:mt-6 h-[480px]  md:h-96">
+          <div className="relative w-full md:w-5/6 lg:w-3/5 md:mx-auto md:mt-6 h-[480px]  md:h-[480px]">
             <img
-              src="/images/main-image.jpg"
+              src="/images/joe-new-image.jpg"
               alt="Background"
-              className="w-full h-full opacity-100 md:rounded-2xl z-0"
+              className="h-full opacity-100 md:rounded-2xl z-0 object-fill md:object-cover w-full"
               data-aos="fade"
             />
 

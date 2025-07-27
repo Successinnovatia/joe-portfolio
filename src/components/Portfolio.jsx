@@ -5,7 +5,7 @@ import PortfolioSlide from './PortfolioSlide'
 
 function Portfolio() {
   return (
-   <div className="flex flex-col gap-4">
+   <div className="bg-black flex flex-col gap-4">
     <ContactCard icon={<FileText className='h-full w-full'/>} text={"Resume"} url={"#"}/>
     <ContactCard icon={<FileText className='h-full w-full'/>} text={"Bio"} url={"#"}/>
 

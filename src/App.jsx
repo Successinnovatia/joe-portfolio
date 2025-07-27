@@ -4,6 +4,7 @@ import HomeLayout from "./components/HomeLayout";
 import Portfolio from "./components/Portfolio";
 import ContactMe from "./components/ContactMe";
 import Home from "./components/Home";
+import Speaking from "./components/Speaking";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -35,6 +36,10 @@ const router  = createBrowserRouter([
         {
           path:"contact",
           element:<ContactMe/>
+        },
+        {
+          path:"speaking",
+          element:<Speaking/>
         }
 
     ]

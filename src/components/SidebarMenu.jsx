@@ -6,6 +6,7 @@ const menuItems = [
   { name: "Home", path: "/" },
   { name: "Portfolio", path: "/portfolio" },
   { name: "Contact", path: "/contact" },
+  { name: "Speaking", path: "/speaking" },
 ];
 
 const SidebarMenu = ({ isOpen, toggleMenu }) => {

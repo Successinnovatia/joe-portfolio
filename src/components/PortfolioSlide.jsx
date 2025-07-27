@@ -65,6 +65,27 @@ const projectsData = [
     image: "/images/terra-verde-img.jpg",
     url: "https://www.linkedin.com/company/terraverde-exports/",
   },
+  {
+    title: "MainTrust Properties and Homes",
+    description:
+      "A real estate company that provides affordable and quality housing solutions in Nigeria.",
+    image: "/images/main-trust-img.jpg",
+    url: "https://www.instagram.com/maintrustproperties?igsh=MWl2dzAxYjMxODFtag==",
+  },
+  {
+    title: "Bethel Vertical Options",
+    description:
+      "They are the force behind personalized elevators & escalators, curating safe and perfect journeys across Nigeria.",
+    image: "/images/bvo-img.jpg",
+    url: "https://www.bvoptions.com/",
+  },
+  {
+    title: "GAINS Associates",
+    description:
+      "They are the force behind personalized elevators & escalators, curating safe and perfect journeys across Nigeria.",
+    image: "/images/gains-associate.png",
+    url: "https://gains-associates.com",
+  },
 ];
 
 function PortfolioSlide() {
@@ -74,7 +95,8 @@ function PortfolioSlide() {
       <Swiper
         modules={[Pagination]}
         spaceBetween={15}
-        slidesPerView={1}
+        slidesPerView={1.5}
+        
         pagination={{ clickable: true }}
         autoHeight={false}
         breakpoints={{
@@ -94,14 +116,14 @@ function PortfolioSlide() {
             <Link
               to={project.url}
               target="_blank"
-              className="flex flex-col space-y-2 justify-center h-auto w-full bg-[#2A2A2A] rounded-lg shadow-md text-white"
+              className="flex flex-col space-y-2 justify-center h-auto  md:w-full bg-[#2A2A2A] rounded-lg shadow-md text-white"
             >
               <img
                 src={project.image}
                 alt={`project ${index + 1}`}
-                className="h-56 md:h-48 w-full rounded-t-lg"
+                className="h-56 md:h-48 w-full rounded-t-lg object-fill"
               />
-              <div className="flex flex-col pt-1 px-4 pb-4">
+              <div className="flex flex-col pt-1 px-4 pb-4 h-20">
                 <h2 className="font-semibold">{project.title}</h2>
                 <p className="text-xs line-clamp-1">{project.description}</p>
               </div>
