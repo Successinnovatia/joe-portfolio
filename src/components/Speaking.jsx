@@ -7,27 +7,27 @@ import { Link } from "react-router-dom";
 
 const speakingData = [
   {
-    image: "src/assets/student-buzz.jpg",
+    image: "/speaking/student-buzz.jpg",
     url: "#",
   },
   {
-    image: "src/assets/social-media-tea.jpg",
+    image: "/speaking/social-media-tea.jpg",
     url: "#",
   },
   {
-    image: "src/assets/social-switch.jpg",
+    image: "/speaking/social-switch.jpg",
     url: "#",
   },
   {
-    image: "src/assets/qna-with-joe.jpg",
+    image: "/speaking/qna-with-joe.jpg",
     url: "#",
   },
   {
-    image: "src/assets/anambra-web3-bootcamp.jpg",
+    image: "/speaking/anambra-web3-bootcamp.jpg",
     url: "#",
   },
   {
-    image: "src/assets/ai-powered-business.jpg",
+    image: "/speaking/ai-powered-business.jpg",
     url: "#",
   },
 ];
