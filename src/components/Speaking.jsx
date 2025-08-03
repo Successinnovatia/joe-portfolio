@@ -7,16 +7,44 @@ import { Link } from "react-router-dom";
 
 const speakingData = [
   {
+    image: "/speaking/first-img.jpg",
+    url: "#",
+  },
+  {
+    image: "/speaking/second-img.jpg",
+    url: "#",
+  },
+  {
+    image: "/speaking/after-second-img.jpg",
+    url: "#",
+  },
+  {
+    image: "/speaking/third-img.jpg",
+    url: "#",
+  },
+  {
+    image: "/speaking/fourth-img.jpg",
+    url: "#",
+  },
+  {
+    image: "/speaking/fifth-img.jpg",
+    url: "#",
+  },
+  {
+    image: "/speaking/sixth-img.jpg",
+    url: "#",
+  },
+  {
     image: "/speaking/student-buzz.jpg",
     url: "#",
   },
   {
     image: "/speaking/social-media-tea.jpg",
-    url: "#",
+    url: "https://open.spotify.com/episode/69dfUMLuoop0mwkiRx9yLO?si=cLm68urOR1mwLwSYsszF8A",
   },
   {
     image: "/speaking/social-switch.jpg",
-    url: "#",
+    url: "https://open.spotify.com/episode/017bzp06okJQvvNGqgpKaN?si=21KiqD_oQV216z8bnMiCQA",
   },
   {
     image: "/speaking/qna-with-joe.jpg",
